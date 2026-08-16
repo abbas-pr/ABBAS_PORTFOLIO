@@ -1,0 +1,98 @@
+.react{
+    position: relative;
+    z-index: -1;
+    border: 2px solid black;
+    padding: 0;
+    overflow-x: hidden;
+    transition: 1s;
+}
+.react::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    border-radius: 3px;
+    right: 100%;
+    transition: 1s;
+    animation: load 1s ease-in-out ;
+    transform: translatex(75%);
+    
+}
+
+.css{
+    position: relative;
+    z-index: -1;
+    border: 2px solid black;
+    padding: 0;
+    overflow-x: hidden;
+    transition: 1s;
+}
+.css::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    border-radius: 3px;
+    right: 100%;
+    transition: 1s;
+    animation: load 1s ease-in-out ;
+    transform: translatex(80%);
+    
+}
+
+.py{
+    position: relative;
+    z-index: -1;
+    border: 2px solid black;
+    padding: 0;
+    overflow-x: hidden;
+    transition: 1s;
+}
+.py::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    border-radius: 3px;
+    right: 100%;
+    transition: 1s;
+    animation: load 1s ease-in-out ;
+    transform: translatex(70%);
+    
+}
+
+.js{
+    position: relative;
+    z-index: -1;
+    border: 2px solid black;
+    padding: 0;
+    overflow-x: hidden;
+    transition: 1s;
+}
+.js::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    border-radius: 3px;
+    right: 100%;
+    transition: 1s;
+    animation: load 1s ease-in-out ;
+    transform: translatex(85%);
+    
+}
+.names{
+    color: #3a958d;
+}
+.goal{
+    color:#3a958d;
+}
+

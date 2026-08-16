@@ -1,0 +1,192 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@theme {
+    
+
+}
+@layer base{
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background:linear-gradient(to right,#06373a,#000a09);
+    color: #fdfefe;
+    overflow-x:hidden ;
+}
+}
+
+ul li a.active::after{
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+ul li a::after{
+  content: '';
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top,#02e9f5,#556d6b00);
+  opacity: 0.5;
+  transition: 1s ease-in-out;
+}ul li a{
+  position: relative;
+  color: #a7e7eb;
+}
+nav{
+    z-index: 50;
+     background:linear-gradient(to right,#001915,#024448,#000a09);
+}
+nav p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #78cdd1ea;
+   
+}
+@keyframes scan{
+    0%{
+      height: 0%;
+    }
+    50%{
+        height: 100%;
+    }
+    100%{
+        height: 0%;
+    }
+}
+nav p::after{
+    content:'';
+    width: 100%;
+    height: 0%;
+    background:linear-gradient(to top,#02e9f55a,#057c6802);
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+     animation: scan 1.5s infinite;
+}
+nav li{
+    position: relative;
+}
+nav li::after{
+    width: 0%;
+    content: '';
+    height: 4px;
+    background:linear-gradient(to right,#02e9f5,#079183);
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+nav li:hover::after{
+    width: 100%;
+}
+span{
+    font-family:'Courier New', Courier, monospace;
+    color: #8cc2c5;
+}
+.content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fafafa;
+}
+button{
+   position: relative;
+    transition: 1s;
+     background-color: #016f75;
+     top: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+@keyframes btn{
+    0%{
+       background-color: #016f75;
+       color: black;
+       
+    }
+    50%{
+       background-color: #001915;
+       color: white;
+        
+    }
+    100%{
+       background-color: #016f75;
+       color: black;
+
+    }
+}
+@keyframes up{
+    0%{
+       top: 5px;
+    }
+    50%{
+       top: -5px;
+    }
+    100%{
+       top:5px;
+    }
+}
+.img{
+ background:linear-gradient(to right,#04382f,#02959c,#06dcb8);  
+ transition: 1s;
+ animation: imgback 2s ease-in-out infinite;
+}
+button:hover{
+    
+    box-shadow: 0px 4px 5px rgb(2, 141, 136);
+}
+@keyframes imgback{
+    0%{
+        padding: 3px;
+    }
+    50%{
+       padding: 10px;
+    }
+    100%{
+        padding:3px
+    }
+}
+
+#project{
+ transition: 2s;
+
+}
+.card{
+ position: relative;
+ top: 20px;
+ transition: 0.5s;
+ padding: 36px;
+ background: #02444881;
+ border: 4px solid #02595e;
+ margin-bottom: 8px;
+
+}
+
+.imgs{
+    border: 3px solid #012925;
+}
+.card:hover{
+    top: 1px;
+    box-shadow:10px 10px 5px #024448;
+}
+.skil{
+    background: linear-gradient(to right,#02949c81,#016f755d);
+    width: 70%;
+}
+.inbar{
+  color: white;
+}
+.outbar{
+    background: #02444881;
+ border: 4px solid #02939b;
+}
+
+.card-btn {
+    background: #012925;
+    display: inline;
+    text-align: center;
+}
