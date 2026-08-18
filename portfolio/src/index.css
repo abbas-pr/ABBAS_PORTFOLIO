@@ -17,7 +17,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background:linear-gradient(to right,#06373a,#000a09);
+    background:linear-gradient(to left,#000a09,#06373a,#000a09);
     color: #fdfefe;
     overflow-x:hidden ;
     width: 100%;
