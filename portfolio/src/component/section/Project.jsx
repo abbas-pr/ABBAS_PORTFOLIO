@@ -12,11 +12,11 @@ export default function Project(){
    
         <div className='block min-h-screen pt-15 py-7 w-full' id='Project'>
           <div className='w-full flex justify-center pt-5'>
-            <h1 className='text-3xl font-serif'>PERSONAL PROJECT</h1>
+            <h1 className='text-3xl font-serif anim'>PERSONAL PROJECT</h1>
           </div>
           <div className=' min-w-full grid relative grid-cols-1 md:grid-cols-2 justify-center gap-3  '>
             <div className='w-full p-10 flex justify-center items-center'>
-                <Card img={aptiq} link="https://aptiq-quiz.onrender.com" content={aptiqc}/>
+                <Card img={aptiq} link="https://aptiq-quiz.onrender.com" content={aptiqc} className="anim"/>
                 </div>
                <div className='w-full p-10  flex justify-center items-center'>
                 <Card img={calsi} link="https://abbas-pr.github.io/CALSI/" content={calsic}/>

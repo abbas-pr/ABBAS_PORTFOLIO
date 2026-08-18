@@ -52,7 +52,7 @@ function Contact() {
     <>
     <div id='Contact' className="w-full">
     <div className="w-full flex justify-center pt-20 my-10 mb-20" >
-      <h1 className='text-3xl font-serif '>CONTACT PAGE</h1>
+      <h1 className='text-3xl font-serif anim '>CONTACT PAGE</h1>
     </div>
     <section className="h-screen w-full pt-10 flex justify-center flex-col md:flex-row" >
       <div className="cont flex flex-col w-full m-4  p-6">
