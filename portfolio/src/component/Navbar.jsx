@@ -22,13 +22,11 @@ export default function Navbar(){
            
         </div>
     </nav>
-    <main>
-         <About/>
+    <main className='w-full'>
+        <About/>
       <Project/>
       <Skill/>
       <Contact/>
-      
-
     </main>
         </>
     )
